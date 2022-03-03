@@ -1,0 +1,13 @@
+proxy:
+  server:
+    port: 9090
+    tcp:
+      enabled: true
+      remote-host: localhost
+      remote-port: 8090
+
+
+spring:
+  datasource:
+    driver-class-name:
+    url:
